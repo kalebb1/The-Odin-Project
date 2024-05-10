@@ -1,0 +1,221 @@
+@import url('https://fonts.googleapis.com/css2?family=BenchNine:wght@300&family=Exo:ital,wght@0,100..900;1,100..900&family=Indie+Flower&family=Oxygen:wght@300;400;700&family=Passero+One&family=Sedgwick+Ave+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=BenchNine:wght@300&family=Exo:ital,wght@0,100..900;1,100..900&family=Indie+Flower&family=Oxygen:wght@300;400;700&family=Sedgwick+Ave+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=BenchNine:wght@300&family=Exo:ital,wght@0,100..900;1,100..900&family=Gamja+Flower&family=Indie+Flower&family=Oxygen:wght@300;400;700&family=Passero+One&family=Sedgwick+Ave+Display&display=swap');
+.exo uniquifier{
+    font-family: "Exo", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+  }
+  .passero-one-regular {
+    font-family: "Passero One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+*{
+    margin: 0%;
+    padding: 0%;
+    //overflow: hidden;
+
+}
+
+ul li{
+    list-style-type: none;
+}
+
+.hero{
+    background-color: #1f2937;
+    display: flex;
+    flex-direction: column;
+    padding: 100px;
+    padding-top: 10px;
+    align-items: center;
+    justify-content: center;
+  
+    
+}
+
+.headerdiv{
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 80%;
+    margin-top: 10px;
+}   
+.headerdiv h3{
+    font-family: "Passero One", sans-serif;
+}
+.herolist{
+    display: flex;
+    font-family: "Exo", sans-serif;
+    list-style-type: none;
+    gap: 20px;
+}
+
+.herocontainer{
+    display: flex;
+    align-items: center;
+    width: 80%;
+    padding-top: 100px;
+    color:white;
+} 
+.text{
+    flex-direction: column;
+   align-items: center;
+   justify-content: center;
+    width: 70%;
+    
+}
+.head{
+    font-family: "Passero One", sans-serif;
+    padding-bottom:5px ;
+    font-size: 3rem;
+}
+.herotext{
+    width: 95%;
+    //line-height: 1.2;
+    //padding-bottom: 5px;
+    font-size: 21px;
+    font-family: "Gamja Flower", sans-serif;
+}
+
+.heroimage {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+.heroimage img{
+    height: auto;
+    width: 500px;
+}
+.herobutton{
+    color: white;
+    font-size: 22px;
+    font-family: "Gamja Flower", sans-serif;
+    background-color: #3882f6;
+    padding: 5px 25px;
+    border-radius: 5px;
+    border: 1px;
+    margin-top: 10px;
+}
+
+//the pack
+
+
+.thehead{
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+}
+.thehead h1{
+    text-align: center;
+    font-family: "Passero One", sans-serif;
+    font-size: 49px;
+}
+.thehead ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+
+}
+.thehead ul li{
+    text-align: center;
+}
+.info-card{
+    height: 350px;
+    width: 170px;
+}
+.thehead img{
+    height: 260px;
+    width: 170px;
+    border-radius:10%;
+}
+.thehead p{
+    color: rgb(146, 137, 137);
+    padding-top: 5px;
+    font-family: "Exo", sans-serif;
+    text-align: center;
+    line-height: 20px;
+
+}
+
+.testtext{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 70vh;
+    background-color: gray;
+}
+.testimony{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.testimony p{
+    font-size: 25px;
+    font-family: "Exo", sans-serif;
+    font-style: italic;
+    color: #1f2937;
+    width: 50%;
+}
+.testimony h4{
+    margin-left: 400px;
+    margin-top: 15px;
+    font-size: 25px;
+    font-family: "Exo", sans-serif;
+
+}
+
+//contact
+
+.callus{
+    height: 50vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.containinfo{
+    color: white;
+    background-color: #3882f6;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    gap: 90px;
+    padding: 40px 150px;
+    border-radius: 10px;
+}
+.theinfo h3{
+    font-family: "Passero One", sans-serif;
+    font-size: 26px;
+}
+
+.theinfo p{
+    font-family: "Exo", sans-serif;
+    font-size: 17px;
+}
+.infobutoon button{
+    background-color: #3882f6;
+    color: white;
+    border: 2px solid white;
+    padding: 7px 25px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+footer{
+    height: 15vh;
+    background-color: #1f2937;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 18px;
+}
